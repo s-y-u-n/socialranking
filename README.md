@@ -49,8 +49,31 @@ coalitions.
 ``` r
 library(socialranking)
 if(interactive()) {
-  createPowerset(1:3, copyToClipboard = TRUE)
+  createPowerset(1:3)
 }
+#> [[1]]
+#> [1] 1 2 3
+#> 
+#> [[2]]
+#> [1] 1 2
+#> 
+#> [[3]]
+#> [1] 1 3
+#> 
+#> [[4]]
+#> [1] 2 3
+#> 
+#> [[5]]
+#> [1] 1
+#> 
+#> [[6]]
+#> [1] 2
+#> 
+#> [[7]]
+#> [1] 3
+#> 
+#> [[8]]
+#> NULL
 
 # pasted, rearranged, adjusted comparators
 as.PowerRelation("

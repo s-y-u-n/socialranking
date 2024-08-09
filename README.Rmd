@@ -52,7 +52,7 @@ for all possible coalitions.
 ```{r}
 library(socialranking)
 if(interactive()) {
-  createPowerset(1:3, copyToClipboard = TRUE)
+  createPowerset(1:3)
 }
 
 # pasted, rearranged, adjusted comparators
